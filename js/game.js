@@ -76,6 +76,7 @@ const nextHandler = () => {
   }
 };
 
+
 const removeClasses = () => {
   answerList.forEach((button) => (button.className = "answer-text"));
 };
